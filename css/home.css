@@ -37,6 +37,7 @@
     }
     .newsbits {
         text-align: center;
+        float: none;
     }
     .art1 {
         float: none;
@@ -56,12 +57,13 @@
     .news {
         float: none;
         width: 100%;
-        margin-top: 800px;
+        margin-top: 3%;
     }
     .news1 {
         float: none;
         width: 100%;
         margin-left: 0px;
+        margin-top: 3%;
     }
     .news2 {
         float: none;
@@ -72,11 +74,13 @@
     .news4 {
         float: none;
         width: 100%;
+        margin-top: 3%;
     }
     .news5 {
         float: none;
         width: 100%;
         margin-left: 0px;
+        
     }
     #unusedl {
         margin-left: 1px;
