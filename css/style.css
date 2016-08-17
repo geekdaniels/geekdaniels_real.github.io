@@ -238,7 +238,8 @@ header#exhead {
     padding: 3px;
 }
 .excopic {
-    width: 100%;
+/*    width: 100%;*/
+    width: 95%;
     height: 90px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -251,14 +252,14 @@ header#exhead {
     color: #223174;
 }
 #flow {
-    float: left;
+/*    float: left;*/
     width: 47%;
     margin-left: 6px;
 }
 #flow1 {
     float: right;
     width: 47%;
-    margin-right: 6px;
+/*    margin-right: 6px;*/
 }
 #pictitle {
     font-size: 13px;

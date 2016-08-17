@@ -143,7 +143,8 @@
     .news2 {
         float: none;
         width: 99%;
-        height: 425px;
+/*        height: 425px;*/
+        height: auto;
         margin-left: 0px;
     }
     .news4 {
@@ -219,7 +220,8 @@
     .news2 {
         float: none;
         width: 99%;
-        height: 425px;
+/*        height: 425px;*/
+        height: auto;
         margin-left: 0px;
     }
     .news4 {
@@ -291,7 +293,8 @@
     .news2 {
         float: none;
         width: 99%;
-        height: 425px;
+/*        height: 425px;*/
+        height: auto;
         margin-left: 0px;
     }
     .news4 {
