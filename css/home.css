@@ -119,6 +119,7 @@
     }
     .newsbits {
         text-align: center;
+        float: none;
     }
     .art1 {
         float: none;
@@ -137,7 +138,8 @@
         float: none;
         width: 99%;
         height: auto;
-        margin-top: 820px;
+        margin-top: 3%;
+/*        margin-top: 820px;*/
         
     }
     .news1 {
