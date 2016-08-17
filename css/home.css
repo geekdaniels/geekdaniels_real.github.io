@@ -131,6 +131,7 @@
     .news {
         float: none;
         width: 99%;
+        height: auto;
         margin-top: 820px;
         
     }
