@@ -259,7 +259,7 @@ header#exhead {
 #flow1 {
     float: right;
     width: 47%;
-/*    margin-right: 6px;*/
+    margin-right: 6px;
 }
 #pictitle {
     font-size: 13px;
