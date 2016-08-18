@@ -10,11 +10,13 @@
     <meta name="theme-color" content="#223174">
     <meta name="msapplication-navbutton-color" content="#223174">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/sweetalert.min.js"></script>
     <!--- Style Sheet -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/slidebars.css" type="text/css">
     <link rel="stylesheet" href="dist/style.css">
     <link rel="stylesheet" href="css/home.css" type="text/css">
+    <link rel="stylesheet" href="css/sweetalert.css" type="text/css">
 </head>
 
 <body>
@@ -313,7 +315,7 @@
                 <!-- Nacoss  Elections --> 
                 <div class="news4"> 
                     <img class="vote1" src="img/Online-Voting.jpg"> 
-                    <blockquote id="techquote"> <a class="techquo" href="#">Click here to vote For the month</a> </blockquote> <a> <blockquote id="techquote"> <a class="techquo" href="#">Vote in the Acu Nacoss election</a> </blockquote> </a> </div> 
+                    <blockquote id="techquote"> <a class="techquo" href="#" onclick="vote()">Click here to vote For the month</a> </blockquote> <a> <blockquote id="techquote"> <a class="techquo" href="#" onclick="vote()">Vote in the Acu Nacoss election</a> </blockquote> </a> </div> 
                 <div class="news5"> 
                     <blockquote>Embeded tweets go in here! Note</blockquote> </div> </div> </div> </div> 
     <!-- ======The left slider ====== --> 
@@ -479,6 +481,11 @@
 
          
     </script> 
+    <script>
+    function vote(){
+        swal("Voting Hasn't Commenced!", "Please Check Back Soon", "error");
+    }
+    </script>
     <script type="text/javascript" src="js/animascript.js"></script> </body> 
 
 </html>
