@@ -22,6 +22,9 @@ body {
 a {
     text-decoration: none;
 }
+.article1 a{
+	color: #e09b0f !important;
+}
 div.res ul {
     list-style-type: none;
     margin: 0;
