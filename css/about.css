@@ -126,6 +126,12 @@
         font-size: 30px;
         text-align: center;
     }
+    .article1 {
+	max-height: 16em;
+}
+       .article2 {
+	max-height: 13.5em;
+}
 }
 @media (min-width: 770px) {
     .navbar {
